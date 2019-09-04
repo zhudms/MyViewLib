@@ -1,0 +1,32 @@
+<resources>
+
+    <!--for use-->
+    <dimen name="text_large">20dp</dimen>
+    <dimen name="text_big">18dp</dimen>
+    <dimen name="text_mid">16dp</dimen>
+    <dimen name="text_small">14dp</dimen>
+    <dimen name="text_mini">12dp</dimen>
+    <dimen name="text_button">15dp</dimen>
+
+    <dimen name="min_size">1px</dimen>
+
+    <dimen name="rectagle_radio_size">5dp</dimen>
+    <dimen name="radio_max">1024dp</dimen>
+
+    <dimen name="divider_size">@dimen/min_size</dimen>
+
+    <dimen name="app_pagepadding">20dp</dimen>
+
+    <!--dialog-->
+    <dimen name="dialog_width">275dp</dimen>
+    <dimen name="dialog_button_hight">45dp</dimen>
+    <dimen name="dialog_hight">175dp</dimen>
+    <dimen name="dialog_textsize">15dp</dimen>
+    <!--<dimen name="dialog_textsize">15sp</dimen>-->
+    <dimen name="dialog_text_margin">30dp</dimen>
+    <dimen name="dialog_padding">20dp</dimen>
+
+
+    <!--for lib-->
+
+</resources>

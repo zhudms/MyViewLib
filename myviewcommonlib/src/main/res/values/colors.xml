@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--for use-->
+    <color name="app_default">#FFFFFF</color>
+    <color name="app_divider_color">#000000</color>
+    <color name="text_black">#000000</color>
+    <color name="text_lightgray">#b7b7b7</color>
+    <color name="app_button_gray">#e2e2e2</color>
+
+    <color name="viewlib_white">#ffffff</color>
+    <color name="viewlib_black">#000000</color>
+    <color name="viewlib_blue">#00FFFF</color>
+</resources>

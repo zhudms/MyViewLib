@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'zhudms.newlib.toolslib:toolslib:0.0.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+publish {
+    userOrg = 'zhudms'//bintray.com用户名
+    groupId = 'zhudms.newlib.viewlib'//jcenter上的路径
+    artifactId = 'toolslib'//项目名称
+    publishVersion = '0.0.3'//版本号
+    desc = 'this is a lib' //描述，不重要
+    website = 'https://github.com/zhudms/MyToolsLib'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
+}
